@@ -3,10 +3,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	width: 100%;
-}
-
 /*"W" logo*/
 
 #logo {
@@ -29,12 +25,27 @@ nav {
 	border-radius: 6px;
 }
 
+/*Link styling*/
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #2a5696;
+}
+
+a:hover {
+	color: #d6a319;
+}
+
 /*Main content positioning*/
 
 main {
 	position: absolute;
 	top: -8px;
 	left: 232px;
+	height: 2500px;
 }
 
 /*Headings in navigation pane and main content (color, indent)*/
